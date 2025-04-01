@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hallebook - Rede Social</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">
+            <h1>Hallebook</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Página Inicial</a></li>
+                <li><a href="#">Notificações</a></li>
+                <li><a href="#">Mensagens</a></li>
+                <li><a href="#">Explorar</a></li>
+                <li><a href="#">Configurações</a></li>
+            </ul>
+        </nav>
+        <div class="auth">
+            <button id="login-btn">Login</button>
+            <button id="register-btn">Registrar</button>
+        </div>
+    </header>
+
+    <!-- Feed de Notícias -->
+    <section class="feed">
+        <div class="post-box">
+            <textarea id="post-text" placeholder="O que está pensando?"></textarea>
+            <button id="post-btn">Postar</button>
+        </div>
+
+        <div class="posts" id="posts-section">
+            <!-- Posts serão adicionados aqui dinamicamente -->
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 Hallebook - Todos os direitos reservados.</p>
+        <ul>
+            <li><a href="#">Termos de Serviço</a></li>
+            <li><a href="#">Política de Privacidade</a></li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
